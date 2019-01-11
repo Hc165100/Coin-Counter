@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coin Counter</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/coinCounter.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <table>
+        <tr>
+          <th>Coin</th>
+          <th>Weight (g)</th>
+          <th>Weight (lbs)</th>
+          <th>Number in a Wrapper</th>
+        </tr>
+        <tr>
+          <td>Penny</td>
+          <td>2.500</td>
+          <td>.006</td>
+          <td>50</td>
+        </tr>
+
+        <tr>
+          <td>Nickle</td>
+          <td>5.00</td>
+          <td>.011</td>
+          <td>40</td>
+        </tr>
+
+        <tr>
+          <td>Dime</td>
+          <td>2.268</td>
+          <td>.005</td>
+          <td>50</td>
+        </tr>
+
+        <tr>
+          <td>Quarter</td>
+          <td>5.670</td>
+          <td>0.13</td>
+          <td>40</td>
+        </tr>
+      </table>
+    </div>
+    <div id="coinInputs">
+      <section id="coinResult"></section>
+      <form>
+        <labe>Weight of Pennies</label> <input type="text" id="pennyWeight" /><br />
+        <label>Weight of Nickles</label> <input type="text" id="nickleWeight" /><br />
+        <label>Weight of Dimes</label> <input type="text" id="dimeWeight" /><br />
+        <label>Weight of Quarters</label> <input type="text" id="quarterWeight" /><br />
+      </form>
+      <button id="calcBtnGram">Calculate weight in grams</button>
+      <button id="calcBtnPound">Calculate weight in pounds</button><br />
+      <button id="clearBtn">Clear</button>
+      </div>
+  
+    <script src="src/coinCounter.js"></script>
+  </body>
+</html>

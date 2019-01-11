@@ -1,0 +1,16 @@
+{
+  "name": "coin-counter",
+  "version": "1.0.0",
+  "description": "Enter the weight of your coins, and estimate the number of paper wrappers you'll need.",
+  "main": "coinCounter.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
